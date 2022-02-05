@@ -1,0 +1,37 @@
+{
+    "DataType":"ProjectList",
+    "Scope": "All My Companies Projects",
+    "System of Record":"Deltek",
+    "Date":"20220202",
+    "UniuqeID": "0001",
+    "Author": "Steve User",
+    "AuthorCompany":"Some Firm LLC",
+    "SchemaVersion":"1.0.0",
+
+
+    "data": {
+        "Projects":[{
+            "<ProjectCollection1>": [
+                [
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"}
+            
+                ]
+
+                ],
+
+            "<ProjectCollection2>": 
+            [
+                [
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"}
+                
+                ]
+    
+                ]
+        
+        }]
+    }
+}
