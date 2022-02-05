@@ -1,0 +1,92 @@
+{
+    "Application":"WebServiceManager",
+    "FileType":"WebServiceSettingsFile",
+    "Service": "BIM360",
+    "ServiceApis": [{
+        [["BIM360 Account Admin", "https://forge.autodesk.com/en/docs/bim360/v1/overview/basics/#id1"], ["Data Management API", "",""],
+    ]],
+    }
+],
+    "ServiceApiDocumentation":"///",
+    "Date":"20210101",
+    "SchemaVersion":"1.0.0",
+    "FileVersion":"Version 0.0.1",
+    "UniuqeID": "0001",
+    "Author": "User Name",
+    "AuthorCompany":"Company Name",
+
+    "data":{
+        "ServiceSettings":[{
+            
+            "ProjectCreation": [{
+                "ServiceTask": "Post Projects",
+                "SericeTaskName":"Create Project - US",
+                "ServiceRegion": "US",
+                "ServiceAPI": "https://developer.api.autodesk.com/hq/v1/accounts/:account_id/projects",
+       
+                "ApiInputs":[{
+                "name": ".../Resouces/ProjectsList.json",
+                "service_types": "field",
+                "start_date": "2015-05-02",
+                "end_date": "2016-04-03",
+                "project_type": ".../Resources/BIM360_ProjectType.json",
+                "value": 3000,
+                "currency": "USD",
+                "job_number": "0219-01",
+                "address_line_1": "The Fifth Avenue",
+                "address_line_2": "#301",
+                "city": "New York",
+                "state_or_province": "New York",
+                "postal_code": "10011",
+                "country": "United States",
+                "business_unit_id": ".../Resouces/BusinessUnit.json",
+                "timezone": "America/New_York",
+                "language": "en",
+                "construction_type": "Renovation",
+                "contract_type": "Design-Bid",
+                "template_project_id": "<enter template id>",
+                "include_companies": "true",
+                "include_locations": "false"
+            }
+        ]
+        }
+    ],
+
+    "AddUser": [{
+        "ServiceTask": "Post Projects",
+        "SericeTaskName":"Create Project - US",
+        "ServiceRegion": "US",
+        "ServiceAPI": "https://developer.api.autodesk.com/hq/v1/accounts/:account_id/projects",
+
+        "ApiInputs":[{
+        "name": ".../Resouces/ProjectsList.json",
+        "service_types": "field",
+        "start_date": "2015-05-02",
+        "end_date": "2016-04-03",
+        "project_type": ".../Resources/BIM360_ProjectType.json",
+        "value": 3000,
+         "currency": "USD",
+        "job_number": "0219-01",
+        "address_line_1": "The Fifth Avenue",
+        "address_line_2": "#301",
+        "city": "New York",
+        "state_or_province": "New York",
+        "postal_code": "10011",
+        "country": "United States",
+        "business_unit_id": ".../Resouces/BusinessUnit.json",
+        "timezone": "America/New_York",
+        "language": "en",
+        "construction_type": "Renovation",
+        "contract_type": "Design-Bid",
+        "template_project_id": "<enter template id>",
+        "include_companies": "true",
+        "include_locations": "false"
+    }
+]
+}
+]
+
+}
+]
+    }
+}

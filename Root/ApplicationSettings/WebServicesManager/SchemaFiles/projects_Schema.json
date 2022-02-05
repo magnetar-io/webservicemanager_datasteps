@@ -1,0 +1,24 @@
+{
+    "Application":"WebServiceManager",
+    "DataType":"ProjectDataSchema",
+    "Date":"20220202",
+    "Author": "Steve User",
+    "AuthorCompany":"Some Firm LLC",
+    "SchemaVersion":"1.0.0",
+
+
+    "data": {
+        "ProjectUIBaseLine": [{
+            "Project Name": [{"FieldName":"ProjectName","DataType":"string","required":"True","Visible":"True"}],
+            "Project Number": [{"FieldName":"ProjectNumber","DataType":"string","required":"True","Visible":"True"}],
+            "Project GUID": [{"FieldName":"ProjectGuid","DataType":"string","required":"True","Visible":"False"}]
+        }
+    ],
+        "ProjectUIExtended": [{
+            "Project Type": [{"FieldName":"ProjectType","DataType":["Healthcare","Science & Technology","Other"],"required":"False","Visible":"True"}],
+            "Project Number": [{"FieldName":"ProjectNumber","DataType":"string","required":"False","Visible":"True"}]
+
+    }
+]
+    }
+}
