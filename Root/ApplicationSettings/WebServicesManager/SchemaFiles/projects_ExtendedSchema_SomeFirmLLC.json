@@ -1,0 +1,20 @@
+{
+    "Application":"WebServiceManager",
+    "DataType":"ProjectDataExtendedSchema",
+    "Date":"20220202",
+    "Author": "Steve User",
+    "AuthorCompany":"Some Firm LLC",
+    "SchemaVersion":"1.0.0",
+
+
+    "data": {
+        "ProjectUIExtended": [{
+            "Some Firm Project Name": [{"FieldName":"SFProjectName","DataType":"string","required":"True","Visible":"True"}],
+            "Some Firm Project Number": [{"FieldName":"SFProjectNumber","DataType":"string","required":"True","Visible":"True"}],
+            "Project Type": [{"FieldName":"ProjectType","DataType":["Resturant","Residential","Single Family","Hospital"],"required":"False","Visible":"True"}],
+            "Project Visiblity": [{"FieldName":"ProjectVisiblity","DataType":["Public","Firm","Office","Project"],"required":"False","Visible":"True"}]
+
+    }
+]
+    }
+}

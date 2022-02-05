@@ -14,7 +14,7 @@
             "New York Projects": [
                 [
                     {"ProjectNumber":"123456.00","ProjectName":"Tavern on the Green","ProjectType":"Resturant","ProjectVisiblity":"Firm"},
-                    {"ProjectNumber":"474747.00","ProjectName":"Dana Barrets's Apartment","ProjectType":"Residential","ProjectVisiblity":"Project Team"}
+                    {"ProjectNumber":"474747.00","ProjectName":"Dana Barrets's Apartment","ProjectType":"Residential","ProjectVisiblity":"Project"}
             
                 ]
 
