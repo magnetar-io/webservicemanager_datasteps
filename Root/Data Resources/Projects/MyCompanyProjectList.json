@@ -11,22 +11,20 @@
 
     "data": {
         "Projects":[{
-            "<ProjectCollection1>": [
+            "New York Projects": [
                 [
-                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
-                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
-                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"}
+                    {"ProjectNumber":"123456.00","ProjectName":"Tavern on the Green","ProjectType":"Resturant","ProjectVisiblity":"Firm"},
+                    {"ProjectNumber":"474747.00","ProjectName":"Dana Barrets's Apartment","ProjectType":"Residential","ProjectVisiblity":"Project Team"}
             
                 ]
 
                 ],
 
-            "<ProjectCollection2>": 
+            "Chicago Projects": 
             [
                 [
-                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
-                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
-                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"}
+                    {"ProjectNumber":"36982.01","ProjectName":"The Mccallister Home","ProjectType":"Single Family","ProjectVisiblity":"Firm"},
+                    {"ProjectNumber":"254548.00","ProjectName":"Richard Kimble Hospital","ProjectType":"Hospital","ProjectVisiblity":"Office"}
                 
                 ]
     
