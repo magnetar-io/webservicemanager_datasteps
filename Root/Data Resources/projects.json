@@ -1,0 +1,37 @@
+{
+    "DataType":"ProjectList",
+    "Scope": "<Description of Projects Contained>",
+    "System of Record":"<Source of the Data>",
+    "Date":"20210101",
+    "UniuqeID": "<GUID>",
+    "Author": "<Service or User>",
+    "AuthorCompany":"<Company Name>",
+    "SchemaVersion":"1.0.0",
+
+
+    "data": {
+        "Projects":[{
+            "<ProjectCollection1>": [
+                [
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"}
+            
+                ]
+
+                ],
+
+            "<ProjectCollection2>": 
+            [
+                [
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"},
+                    {"ProjectNumber":"<Num>","ProjectName":"<Name>","ProjectType":"<Type>","ProjectVisiblity":"<value>"}
+                
+                ]
+    
+                ]
+        
+        }]
+    }
+}
